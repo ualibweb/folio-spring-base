@@ -17,6 +17,8 @@
 
   <properties>
     <java.version>11</java.version>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
     <spring-cloud-starter-openfeign.version>3.1.0</spring-cloud-starter-openfeign.version>
     <commons-lang3.version>3.12.0</commons-lang3.version>
     <cql2pgjson.version>33.2.4</cql2pgjson.version>
@@ -184,6 +186,7 @@
 
   <build>
     <plugins>
+
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>versions-maven-plugin</artifactId>
